@@ -1,0 +1,13 @@
+{
+  "name": "@lerna-firebase/shared",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@lerna-firebase/functions",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "10"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@lerna-firebase/shared": "^1.0.0",
+    "@types/cors": "^2.8.8",
+    "cors": "^2.8.5",
+    "firebase-admin": "^9.3.0",
+    "firebase-functions": "^3.11.0",
+    "generate-json-webpack-plugin": "^2.0.0",
+    "ts-loader": "^8.0.9",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
